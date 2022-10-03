@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+div {
+    box-sizing: border-box;
+}
+header {
+    background: url(../img/list2.jpg) no-repeat center top / cover ;
+    height: 600px;
+}
+
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+.logo{
+margin-top: 30px;
+width: 170px;
+float: left;
+}
+
+nav {
+float: right;
+margin-top: 45px;
+
+
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+float: left;
+display: block;
+margin-right: 41px;
+}
+
+.menu li a:hover {
+    color: rgb(79, 152, 248);
+    cursor: pointer;
+    }
+    .menu li a {
+        color :#fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .titles__first {
+        font-size: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 180px;
+    
+    }
+    h1 {
+        font-size: 75px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 15px;
+    }
+    .button {
+        background: #fed136;
+        color:#484543 ;
+        border-radius: 20px ;
+        display: block;
+        width: 180px;
+        padding: 20px 0;
+        margin: 0 auto ;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 50px;
+
+    }
+    .title{
+        padding-top: 115px  ;
+
+    }
+    .title h2 {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .title p {
+        color: #0a0303;
+         text-align: center;
+         font-size: 16px;
+         margin-top: 5px;
+
+    }
+    .services {
+        margin-top: 70px;
+         }
+  .services__item {
+    width: 270px;
+    float: left;
+    text-align: center;
+  }
+  .services__item h3 {
+    font-size: 18 px;
+    margin-bottom: 5 px;
+  }
+  .services__item p {
+    color: #0a0303;
+    font-size: 14 px;
+    line-height: 1.55em;
+  }
+ .services__item:last-child {
+    float: right;
+ }
+ .services__item:nth-child(2){
+    margin-left: 60px;
+ }
+ #portfolio {
+    background: #f7f7f7;
+ }
+ #services {
+    padding-bottom:120px;
+ }
+ 
+
+ .icon {
+    width: 100px;
+ }
+
+ /* .btn:hover{
+    color: rgb(79, 152, 248);
+ } */
